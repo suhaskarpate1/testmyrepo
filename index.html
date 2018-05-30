@@ -1,4 +1,2129 @@
-<head> Test </head>
-<test tage>
-<html> hello world !! Lets Rock </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>FishEye: changeset 9b87f580aa9f464aaadbca20063f225f6bd71350</title>
+        
+            
+        
+        
+
+
+<meta name="application-name" content="fecru" display-name="FishEye and Crucible">
+<link rel="shortcut icon" href="/static/p5xsod/2static/images/favicons/fisheye-16.ico">
+<link rel="apple-touch-icon" href="/static/p5xsod/2static/images/favicons/fisheye-32.png">
+<link rel="icon" href="/static/p5xsod/2static/images/favicons/fisheye-32.png" type="image/png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start WebResourceManager included resources -->
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"\"";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-fecru-product-provider.product-name-data-provider"]="\"FishEye and Crucible\"";
+WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-fecru-product-provider.user-name-data-provider"]="\"suhas\"";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="/s/fa0c94ebe7f3d9ea2a5def22cc6f4fce-CDN/20180321104813/1/30acc646c207448e0c32799cb98f2a58/_/download/contextbatch/css/fe.changeset,atl.general,-_super/batch.css?analytics-enabled=true&amp;analytics-uploadable=true&amp;isSystemAdministrator=true&amp;non-anonymous-user=true&amp;nps-acknowledged=true&amp;nps-enabled=true&amp;nps-not-opted-out=true" data-wrm-key="fe.changeset,atl.general,-_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="/s/071963bba1dc30251c74ac7b39308354-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-lozenge/com.atlassian.auiplugin:aui-lozenge.css" data-wrm-key="com.atlassian.auiplugin:aui-lozenge" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/071963bba1dc30251c74ac7b39308354-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-badge/com.atlassian.auiplugin:aui-badge.css" data-wrm-key="com.atlassian.auiplugin:aui-badge" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/071963bba1dc30251c74ac7b39308354-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-labels/com.atlassian.auiplugin:aui-labels.css" data-wrm-key="com.atlassian.auiplugin:aui-labels" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-tipsy/com.atlassian.auiplugin:aui-tipsy.css" data-wrm-key="com.atlassian.auiplugin:aui-tipsy" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/071963bba1dc30251c74ac7b39308354-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-tooltips/com.atlassian.auiplugin:aui-tooltips.css" data-wrm-key="com.atlassian.auiplugin:aui-tooltips" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.4.1/_/download/batch/com.atlassian.applinks.applinks-plugin:applinks-public/com.atlassian.applinks.applinks-plugin:applinks-public.css" data-wrm-key="com.atlassian.applinks.applinks-plugin:applinks-public" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/1.1.7/_/download/batch/com.atlassian.plugins.issue-status-plugin:issue-status-resources/com.atlassian.plugins.issue-status-plugin:issue-status-resources.css" data-wrm-key="com.atlassian.plugins.issue-status-plugin:issue-status-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/071963bba1dc30251c74ac7b39308354-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-select2/com.atlassian.auiplugin:aui-select2.css" data-wrm-key="com.atlassian.auiplugin:aui-select2" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/85aded984d32e6df43893124b5aff573-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:fields/com.atlassian.integration.jira.jira-integration-plugin:fields.css" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:fields" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/85aded984d32e6df43893124b5aff573-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:transition-form/com.atlassian.integration.jira.jira-integration-plugin:transition-form.css" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:transition-form" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/426098d71d6a8ab3200011488477c99f-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog.css" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog" data-wrm-batch-type="resource" media="all">
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="/s/426098d71d6a8ab3200011488477c99f-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog.css?conditionalComment=lte+IE+8" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog" data-wrm-batch-type="resource" media="all">
+<![endif]-->
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/ae625e79e2035a92c25454d4d163b36a/_/download/contextbatch/js/_super/batch.js" data-wrm-key="_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="text/javascript" src="/s/e6a8c2f27597236197cbed9b67c58bef-CDN/20180321104813/1/30acc646c207448e0c32799cb98f2a58/_/download/contextbatch/js/fe.changeset,atl.general,-_super/batch.js?analytics-enabled=true&amp;analytics-uploadable=true&amp;isSystemAdministrator=true&amp;locale=en-US&amp;non-anonymous-user=true&amp;nps-acknowledged=true&amp;nps-enabled=true&amp;nps-not-opted-out=true" data-wrm-key="fe.changeset,atl.general,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:internal-jquery-ui-datepicker/com.atlassian.auiplugin:internal-jquery-ui-datepicker.js" data-wrm-key="com.atlassian.auiplugin:internal-jquery-ui-datepicker" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:jquery-ui-other/com.atlassian.auiplugin:jquery-ui-other.js" data-wrm-key="com.atlassian.auiplugin:jquery-ui-other" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-tipsy/com.atlassian.auiplugin:aui-tipsy.js" data-wrm-key="com.atlassian.auiplugin:aui-tipsy" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-tooltips/com.atlassian.auiplugin:aui-tooltips.js" data-wrm-key="com.atlassian.auiplugin:aui-tooltips" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.4.1/_/download/batch/com.atlassian.applinks.applinks-plugin:lodash-amd/com.atlassian.applinks.applinks-plugin:lodash-amd.js" data-wrm-key="com.atlassian.applinks.applinks-plugin:lodash-amd" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.4.1/_/download/batch/com.atlassian.applinks.applinks-plugin:applinks-lib/com.atlassian.applinks.applinks-plugin:applinks-lib.js" data-wrm-key="com.atlassian.applinks.applinks-plugin:applinks-lib" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.4.1/_/download/batch/com.atlassian.applinks.applinks-plugin:applinks-public/com.atlassian.applinks.applinks-plugin:applinks-public.js" data-wrm-key="com.atlassian.applinks.applinks-plugin:applinks-public" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/99914b932bd37a50b983c5e7c90ae93b-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-trigger/com.atlassian.auiplugin:aui-trigger.js?locale=en-US" data-wrm-key="com.atlassian.auiplugin:aui-trigger" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/99914b932bd37a50b983c5e7c90ae93b-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-inline-dialog2/com.atlassian.auiplugin:aui-inline-dialog2.js?locale=en-US" data-wrm-key="com.atlassian.auiplugin:aui-inline-dialog2" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/99914b932bd37a50b983c5e7c90ae93b-CDN/20180321104813/1/1.1.7/_/download/batch/com.atlassian.plugins.issue-status-plugin:issue-status-resources/com.atlassian.plugins.issue-status-plugin:issue-status-resources.js?locale=en-US" data-wrm-key="com.atlassian.plugins.issue-status-plugin:issue-status-resources" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/5.8.15/_/download/batch/com.atlassian.auiplugin:aui-select2/com.atlassian.auiplugin:aui-select2.js" data-wrm-key="com.atlassian.auiplugin:aui-select2" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/c1b1d8d7ef6a6d9dbba566242b4d5061-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:fields/com.atlassian.integration.jira.jira-integration-plugin:fields.js?locale=en-US" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:fields" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/c1b1d8d7ef6a6d9dbba566242b4d5061-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:transition-form/com.atlassian.integration.jira.jira-integration-plugin:transition-form.js?locale=en-US" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:transition-form" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/c1b1d8d7ef6a6d9dbba566242b4d5061-CDN/20180321104813/1/3.0.4/_/download/batch/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog/com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog.js?locale=en-US" data-wrm-key="com.atlassian.integration.jira.jira-integration-plugin:jira-issues-dialog" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="text/javascript" src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/20180321104813/1/1.0/_/download/batch/fecru.webresources:xsrf/fecru.webresources:xsrf.js" data-wrm-key="fecru.webresources:xsrf" data-wrm-batch-type="resource" data-initially-rendered></script>
+
+<!-- End WebResourceManager included resources -->
+<script type="text/javascript" src="/static/p5xsod/concat.commonScriptAndStyleIncludes.613af591ce48f4b927a990ed170d43f6.cache.js"></script>
+
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/concat.commonScriptAndStyleIncludes.4d5a517ce513233f062794fd33e309f8.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/jquery/theme/concat.commonScriptAndStyleIncludes.54ff45406887c7698534445611f083dc.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/concat.commonScriptAndStyleIncludes.e5f8c5785100dad75d4ec06eeb3d8116.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/css/concat.commonScriptAndStyleIncludes.f1b977442c2d358b4b8cb85da0727569.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/concat.commonScriptAndStyleIncludes.749488eaf73f8dd5dfdd18862057a8e1.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/components/concat.commonScriptAndStyleIncludes.a2935706994749e51a0a97aa5ed84c09.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/jquery/plugin/concat.commonScriptAndStyleIncludes.f3f5b1ba768fed813e974d6ac559c5c2.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/concat.commonScriptAndStyleIncludes.b77ee58b99c9c3b346dfafd03580e7c5.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/third-party-plugins/concat.commonScriptAndStyleIncludes.4c63988debf8f49d03c8d2740031be4c.cache.css">
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<!-- @ADG -->
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+
+
+
+<script type="text/x-template" title="share-content-popup">
+    <form action="#" method="post" class="aui share-content-popup">
+        <fieldset class="share-content-popup">
+            <div class="autocomplete-user-target">
+                <div class="fecru-autocomplete-wrapper">
+                    <input id="share-user-input" type="text" name="share-user-input" class="text ac_input" value=""
+                           autocomplete="off" placeholder="Enter user name or email address" />
+                    <span class="fecru-autocomplete-dropdown-icon">&nbsp;</span>
+                </div>
+            </div>
+            <ol class="recipients">
+            </ol>
+            <textarea class="textarea" id="share-dialog-note" placeholder="Add an optional note"/>
+        </fieldset>
+        <div class="share-dialog-button-panel">
+            <div class="share-dialog-progress-messages"></div>
+            <button type="button" id="share-submit-button" class="aui-button aui-style" aria-disabled="true" >Send</button>
+            <a class="close-dialog">Cancel</a>
+        </div>
+    </form>
+</script>
+
+<script type="text/x-template" title="share-content-popup-recipient-user">
+    <li data-user="{id}" style="display: none">
+        <span>
+            <img src="{avatarUrl}" title="{id}" />
+            <span title="{displayPrimary}" class="recipient-username-wrapped">{displayPrimary}</span>
+            <span class="remove-recipient"/>
+        </span>
+    </li>
+</script>
+
+<script type="text/x-template" title="share-content-popup-recipient-email">
+    <li data-email="{email}" style="display: none">
+        <span>
+            <img src="/static/p5xsod/images/unknownavatar.png" title="{email}" />
+            <span title="{displayPrimary}" class="recipient-username-wrapped">{email}</span>
+            <span class="remove-recipient"/>
+        </span>
+    </li>
+</script>
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/concat.style.474cbe77a64d2f484177b4d79409e492.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/controls/concat.style.21dafb3ef750c4e28fbd8548de50d275.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/jquery/plugin/concat.style.6501443aa73000eec3fe9dbd29194357.cache.css">
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/components/concat.style.721902963af3fbb0f44aa85fb0a8fcdc.cache.css">
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/style-ie.css">
+<style>/* IE6, IE7, IE8: moved inline from fancybox-overrides.css as IE does not respect relative paths from the CSS file. See FE-3015. */
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_ne.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_e.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_se.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_s.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/p5xsod/2static/images/jquery/plugin/fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
+</style>
+<![endif]-->
+
+
+<script type="text/javascript" src="/static/p5xsod/concat.jquery.95cee70ae530e48c59254a6c05487a2f.cache.js"></script>
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+<script type="text/javascript">jQuery.noConflict();</script>
+
+<script type="text/javascript" src="/static/p5xsod/concat.fecru.4ccaea4da2995dc4fcdf38f48f7f76eb.cache.js"></script>
+
+<link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/cru/concat.fecru.6d3cfb85d30447c11c7e73b4aa187824.cache.css">
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+<!--[if IE]>
+<script type="text/javascript" src="/static/p5xsod/2static/script/fecru/ie.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript">
+    window.FECRU = window.FECRU || {};
+    FECRU.pageContext = "";
+    FECRU.staticDirectory = "static/p5xsod";
+    FECRU.userTimeZoneOffset = "0";
+    FECRU.userTimeZone = "UTC";
+    FECRU.isAnon = false;
+    FECRU.isFishEye = true;
+    FECRU.isCrucible = true;
+    FECRU.isJiraIntegrationPluginEnabled = true;
+    FECRU.isSelectionHistoryEnabled = false;
+    FECRU.initialInProductHelpProperties = {"reviewActivityInProductHelpShowed":true};
+</script>
+
+
+
+        
+            <link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/diff.css"/>
+        <link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/synhi.css"/>
+        <link type="text/css" rel="stylesheet" href="/static/p5xsod/2static/style/cru/crucible-comment-prior-to-3.5.css"/>
+        
+            <script type="text/javascript" language="javascript" src="/static/p5xsod/gwt/com.atlassian.fecru.gwt.cscomment.CsComment/com.atlassian.fecru.gwt.cscomment.CsComment.nocache.js"></script>
+        
+        
+    </head>
+    <body id="section-changeset-view" class="brancher-hidden changeset-page">
+        <div id="page">
+            <div id="stp-licenseStatus-banner-container"></div>
+            <div id="masthead">
+                <input type="hidden" id="csid" value="9b87f580aa9f464aaadbca20063f225f6bd71350"/>
+        <input type="hidden" id="repository" value="TestRun"/>
+        <input type="hidden" id="selectedIndex" value="0"/>
+        <input id="baseClUrl" type="hidden" name="baseClUrl" value="/changelog/TestRun/">
+        <input id="baseJSONClUrl" type="hidden" name="baseJSONClUrl" value="/json/changelog/TestRun/">
+        
+<div class="system-messages">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<header id="header" role="banner">
+<nav class="aui-header aui-dropdown2-trigger-group" role="navigation"><div class="aui-header-inner"><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-fecru"><a href="/"><span class="aui-header-logo-device"></span></a></h1><ul class="aui-nav" id="main-nav">
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="source-dropdown" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+
+<div class="aui-dropdown2-section source-dropdown-current">
+<strong>Current repository</strong>
+<input type="hidden" name="currentRepositoryName" value="TestRun" />
+<ul>
+<li>
+
+
+    
+        
+        <a href="/changelog/TestRun"
+           class=""
+           title="TestRun"
+           data-repository-name="TestRun">
+            TestRun
+        </a>
+    
+    
+
+
+
+</li>
+</ul>
+</div>
+
+<div class="aui-dropdown2-section">
+<ul>
+<li>
+<a href="/browse">All repositories</a>
+</li>
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="/browse" aria-owns="source-dropdown" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+
+Repositories
+
+
+</a>
+
+
+
+</li>
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="projects-dropdown" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+
+<div class="aui-dropdown2-section">
+<ul>
+<li>
+<a href="/projects">All projects</a>
+</li>
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="/projects" aria-owns="projects-dropdown" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+
+Projects
+
+
+</a>
+
+
+
+</li>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="people-dropdown" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+<div class="aui-dropdown2-section">
+<ul>
+<li>
+<a href="/users">All users</a>
+</li>
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="/users" aria-owns="people-dropdown" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+
+People
+
+
+</a>
+
+
+
+</li>
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="reviews-dropdown" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+<div class="aui-dropdown2-section">
+<ul>
+<li>
+<a href="/cru">Review dashboard</a>
+</li>
+</ul>
+</div>
+
+
+<div class="aui-dropdown2-section">
+<ul>
+
+
+<li>
+    <a id="inbox" title="All reviews requiring my attention"
+       href="/cru?filter=inbox">
+        <span class="">
+            Inbox
+        </span>
+        <span class="count"><em>(2)</em></span>
+    </a>
+</li>
+
+<li>
+    <a id="outbox" title="Reviews awaiting action by others"
+       href="/cru?filter=outbox">
+        <span class="">
+            Outbox
+        </span>
+        <span class="count"><em>(1)</em></span>
+    </a>
+</li>
+</ul>
+</div>
+
+
+
+
+<div class="aui-dropdown2-section">
+<ul>
+<li>
+<a href="/plugins/servlet/jira-blockers/">Reports</a>
+</li>
+</ul>
+</div>
+
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="/cru" aria-owns="reviews-dropdown" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+
+Reviews
+
+
+</a>
+
+
+
+</li>
+
+
+
+
+<li class="split-button-container aui-buttons">
+<button class="aui-button aui-button-split-main aui-button-primary create-review-trigger" title="Create a new Review">
+Create review
+</button><button id="menu-create-trigger" class="aui-button aui-button-split-more aui-button-primary aui-dropdown2-trigger"
+                        data-container=".split-button-container" aria-owns="menu-create" aria-haspopup="true">
+More
+</button>
+</li>
+<div id="menu-create" class="aui-dropdown2 aui-style-default" aria-hidden="true">
+<ul class="aui-list-truncate">
+<li><a class="create-review-trigger">Create review</a></li>
+<li><a class="create-snippet-trigger" id="create-snippet">Create snippet</a></li>
+</ul>
+</div>
+
+</ul></div><div class="aui-header-secondary"><ul class="aui-nav">
+
+<form id="quicknav-form" class="aui-quicksearch" action="/qsearch">
+    <input name="q" id="quicknav-input" type="text" autocomplete="off" placeholder="Search"/>
+</form>
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="help-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+
+<div class="aui-dropdown2-section">
+<strong>FishEye</strong>
+<ul class="aui-list-truncate">
+<li><a target="_help" href="http://docs.atlassian.com/fisheye/docs-044/FishEye+Documentation+Home">Help</a></li>
+<li><a target="_help" href="https://answers.atlassian.com/tags/fisheye/">Atlassian Answers</a></li>
+<li><a target="_whatsnew" href="http://docs.atlassian.com/fisheye/docs-044/FishEye+Releases">What's new</a></li>
+</ul>
+</div>
+
+
+<div class="aui-dropdown2-section">
+<strong>Crucible</strong>
+<ul class="aui-list-truncate">
+<li><a target="_help" href="http://docs.atlassian.com/crucible/docs-044/Crucible+Documentation+Home">Help</a></li>
+<li><a target="_help" href="https://answers.atlassian.com/tags/crucible/">Atlassian Answers</a></li>
+<li><a target="_whatsnew" href="http://docs.atlassian.com/crucible/docs-044/Crucible+Releases">What's new</a></li>
+</ul>
+</div>
+
+<div class="aui-dropdown2-section">
+<ul class="aui-list-truncate">
+<li><a href="#" id="masthead-about-link"
+                                                >About FishEye &amp; Crucible</a></li>
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="" aria-owns="help-menu-link-content" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+<span class="aui-icon aui-icon-small aui-iconfont-help">Help</span>
+
+
+
+</a>
+
+
+
+</li>
+
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="admin-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+<div class="aui-dropdown2-section">
+<ul>
+
+<li>
+<a class="lnk "href="/admin/admin.do"
+
+title='Administration'>Administration</a>
+
+</li>
+
+<li>
+<a class="lnk "href="/admin/userAdmin.do"
+
+title='Manage Users'>Users</a>
+
+</li>
+
+<li>
+<a class="lnk "href="/plugins/servlet/upm"
+
+title='Manage Add-ons'>Add-ons</a>
+
+</li>
+
+<li>
+<a class="lnk "href="/admin/admin.do#repositories"
+
+title='Manage Repositories'>Repositories</a>
+
+</li>
+
+<li>
+<a class="lnk "href="/admin/listProjects.do"
+
+title='Manage Projects'>Projects</a>
+
+</li>
+
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="" aria-owns="admin-menu-link-content" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+<span class="aui-icon aui-icon-small aui-iconfont-configure">Administration</span>
+
+
+
+</a>
+
+
+
+</li>
+
+
+<li id="user-options" title="Suhas">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="login-dropdown" class="aui-dropdown2 aui-style-default" aria-hidden="true"
+        
+>
+<div class="aui-dropdown2-section">
+<ul>
+<li><a href="/user/suhas">Activity</a></li>
+
+<li class=><a href="/cru/">Reviews</a></li>
+
+<li><a data-tab="favourites"
+                                                       class="dialog-settings">Favourites</a></li>
+<li><a data-tab="profile"
+                                                       class="dialog-settings">Profile settings</a>
+</li>
+
+</ul>
+</div>
+<div class="aui-dropdown2-section">
+<ul class="control last">
+<li><a href="/logout">Log out</a></li>
+</ul>
+</div>
+<div class="dropdown2-loading" style="display: none"></div>
+</div>
+
+<a href="/user/suhas" aria-owns="login-dropdown" aria-haspopup="true" class="aui-dropdown2-trigger aui-style-default ">
+
+
+
+<span class="aui-avatar aui-avatar-small">
+<span class="aui-avatar-inner">
+<img src="http://54.218.72.157:8060/avatar/suhas?s=24" />
+</span>
+</span>
+
+
+
+</a>
+
+
+
+
+</li>
+
+
+</ul></div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+</header>
+
+
+
+<script type="text/x-template" title="create-issue-form">
+    <div class="create-issue-wrapper">
+        <form class="aui long-label">
+            <fieldset class="create-issue-form-fieldset inline">
+                {fields}
+            </fieldset>
+        </form>
+    </div>
+</script>
+<script type="text/x-template" title="credentials-required">
+    <div class="aui-message warning shadowed ril-credentials-required">
+        <span class="aui-icon icon-warning"></span>
+        <strong>Credentials required</strong> <br>
+        <a href="{authUri}" target="_empty">
+            Authenticate with {applicationLinkName}
+        </a>
+    </div>
+</script>
+<script type="text/x-template" title="create-issue-form-field">
+    <div class="field-group {fieldType}">
+        {field}
+    </div>
+</script>
+<script type="text/x-template" title="jira-issuefield-group">
+    <div class="field-group jira-issuefield">
+        {field}
+    </div>
+</script>
+<script type="text/x-template" title="create-issue-select">
+    <label>{label}<span class="aui-icon icon-required required"></span></label>
+    <select class='{cssClass}' name='{name}'>{options}</select>
+</script>
+<script type="text/x-template" title="create-issue-field">
+    <label>{label}<span class="aui-icon icon-required {requiredClass}"></span></label>
+    <input type="text" value="{value}" name="{name}" class="create-issue-field {extraClass}"/>
+</script>
+<script type="text/x-template" title="create-issue-field-textarea">
+    <label>{label}<span class="aui-icon icon-required {requiredClass}"></span></label>
+    <textarea name="{name}" class="create-issue-field textarea long-field {extraClass}">{value}</textarea>
+</script>
+<script type="text/x-template" title="create-issue-assignee">
+    <label for="issue-assignee">Assignee<span class="aui-icon icon-required {requiredClass}"></span></label>
+    <select id="issue-assignee" class='create-issue-assignee'>{options}</select>
+</script>
+<script type="text/x-template" title="create-issue-option">
+    <option value="{value}" {selected}>{display}</option>
+</script>
+<script type="text/x-template" title="create-issue-optgroup">
+	<optgroup label="{name}"></optgroup>
+</script>
+<script type="text/x-template" title="create-issue-button">
+    <div class="buttons-container right">
+        <div class="buttons">
+            <input class="button submit create-issue-submit" type="submit" value="Create" style="margin-top: 10px;">
+        </div>
+    </div>
+</script>
+<script type="text/x-template" title="display-issue">
+    <span class="jira-issue-lazy-load" data-jira-key="{issueKey}" data-jira-issue-lazy-load="true" data-hide-issue-title="true">
+        <div class="jira-title jira-icon">
+            <a href="{contextPath}/action/jira-issue.do?key={issueKey}" class="jira-link jira-hover-trigger">{issueKey}</a>
+        </div>
+    </span>
+</script>
+<script type="text/x-template" title="transition-issue-toolbar">
+    <span class="aui-toolbar">
+        <ul class="toolbar-group">
+            <li class="toolbar-item toolbar-splitbutton dd-allocated">
+                <a class="transition-issue-trigger toolbar-trigger main-action-trigger"
+                   data-transition-id="{transitionId}">
+                    {transitionDisplay}
+                </a>
+
+                <div class="aui-dd-parent" style="">
+                    <a class="toolbar-trigger aui-dd-trigger" href="#" title="Other transitions">
+                        <span class="icon icon-dropdown"></span>
+                    </a>
+                    <ul class="aui-dropdown aui-dropdown-right aui-box-shadow hidden" style="top: 24px; ">
+                        {otherTransitionsDropdowns}
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </span>
+</script>
+<script type="text/x-template" title="transition-issue-other-dropdown-list-item">
+    <li class="dropdown-item">
+        <a class="issue-workflow-transition" data-transition-id="{transitionId}">
+            {transitionDisplay}
+        </a>
+    </li>
+</script>
+
+<script type="text/x-template" title="issue-create-error-message">
+    <div class="aui-message error shadowed">
+        <span class="aui-icon icon-error"></span>
+        {message}
+    </div>
+</script>
+<script type="text/x-template" title="oauth-failed-completely-error">
+    <div class="aui-message error shadowed">
+        <p class="title">
+            <span class="aui-icon icon-error"></span>
+            <strong>{title}</strong>
+        </p>
+        <p>Oauth Failed. Please refresh the page. <br> {innerMsg}</p>
+    </div>
+</script>
+<script type="text/x-template" title="issue-creation-spinner">
+    <div class="spinner-container {containerClass}">
+        <label>&nbsp;</label>
+        <span class="spinner">
+            <img src="{contextPath}/currentstatic/2static/images/blank.gif">
+        </span>
+    </div>
+</script>
+<script type="text/x-template" title="jira-assignee-link">
+    <a href="{serverDisplayUrl}/secure/ViewProfile.jspa?name={assigneeUsername}">{assigneeDisplayName}</a>
+</script>
+<script type="text/x-template" title="jira-issue-summary-row-empty">
+    <tr data-jira-issue-key="{issueKey}" class="jira-issues-report-row">
+        <td>
+        <span class="jira-title jira-title-detailed jira-icon jira-hover-trigger">
+            <a class="jira-link" href="/action/jira-issue.do?key={issueKey}">{issueKey}</a>
+        </span>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</script>
+<script type="text/x-template" title="jira-issue-summary-row">
+    <td>
+        <span class="jira-title jira-title-detailed jira-icon jira-hover-trigger" style="background: url({iconUrl}) no-repeat;">
+            <a class="jira-link" href="{displayUrl}">{issueKey}</a>
+        </span>
+    </td>
+    <td>{summary}</td>
+    <td class="status-lozenge status-{statusClassName}">{status}</td>
+    <td>{assigneeHtml}</td>
+</script>
+<script type="text/x-template" title="jira-issue-summary-row-error">
+    <td>
+        <span class="jira-title jira-title-detailed jira-icon jira-hover-trigger">
+            <a class="jira-link" href="{issueLink}">{issueKey}</a>
+        </span>
+    </td>
+    <td><em style="color: #575757">{errorMessage}</em></td>
+    <td></td>
+    <td></td>
+</script>
+<script type="text/x-template" title="jira-issue-summary-oauth-error">
+    <div class="aui-message warning closeable shadowed">
+        <span class="aui-icon icon-warning"></span>
+        <strong>Credentials Required:</strong> <br>
+        <a class="comment-applink"
+           href="{credentialsRequiredAuthorizationUri}"
+           onclick="FECRU.HOVER.invalidateCache(FECRU.HOVER.CACHE_FOREVER);">
+            Authenticate with {applinkName}
+        </a>
+    </div>
+</script>
+
+
+<script type="text/javascript">
+FECRU.INFO.set({
+isPipelined: false,
+repoName: "TestRun"
+});
+</script>
+
+
+
+            </div>
+            <div id="atlas" >
+
+            
+                
+                
+                
+                <div id="content" class="content-explorer browsepage">
+                    <header class="aui-page-header"><div class="aui-page-header-inner">
+                            <div class="aui-page-header-main">
+                <h1 class="fecru-repo">
+
+    
+        
+        <a href="/browse/TestRun"
+           class=""
+           title="TestRun"
+           data-repository-name="TestRun">
+            TestRun
+        </a>
+    
+    
+
+
+</h1>
+            </div><!-- .aui-page-header-main -->
+        <div class="aui-page-header-actions">
+                <div id="page-actions" class="aui-buttons">
+                        
+
+
+
+
+
+<div class="aui-buttons aui-style">
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <a id="checkout-url" class="aui-button aui-style">
+        <span class="aui-icon aui-icon-small aui-iconfont-devtools-clone"></span>
+            Clone
+        <script type="text/x-template" title="checkout-url-content">
+            <div id="checkout-url-content">
+                <form class="aui">
+                    <div class="checkout-info">
+                        
+                        
+                        
+                            <div class="other-scm">
+                                <div class="field-group">
+                                    <input type="text" readonly
+                                           value="git clone https://github.com/suhaskarpate1/testmyrepo/"
+                                           class="text text__fixed-font-size"
+                                           data-url-start="10"
+                                           
+                                            /><button type="button" class="aui-button copy"
+                                        ><span class="aui-icon"></span></button>
+                                </div>
+                            </div>
+                        
+                        
+                    </div>
+                    
+                        <div class="source-tree">
+                            <div>
+                                <a href="sourcetree://cloneRepo/https://github.com/suhaskarpate1/testmyrepo/" class="aui-button aui-style aui-button-primary">
+                                    Clone in SourceTree
+                                </a>
+                            </div>
+                            <p class="windows-text">
+                                <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_win" target="_blank">Atlassian SourceTree</a>
+                                is a free Git and Mercurial client for Windows.
+                            </p>
+                            <p class="mac-text">
+                                <a href="http://www.sourcetreeapp.com/?utm_source=internal&amp;utm_medium=link&amp;utm_campaign=clone_repo_mac" target="_blank">Atlassian SourceTree</a>
+                                is a free Git and Mercurial client for Mac.
+                            </p>
+                        </div>
+                    
+                </form>
+            </div>
+        </script>
+        <script type="text/javascript" src="/static/p5xsod/2static/script/lib/ZeroClipboard-1.2.1.min.js"></script> 
+        <script type="text/javascript">
+            ;(function($) {
+                AJS.$(function () {
+                    var dialogContent = AJS.template.load('checkout-url-content').fill(),
+                            isInitialised = false, isInitClipboard = false;
+                    ZeroClipboard.setDefaults({
+                        moviePath: FECRU.pageContext + '/' + FECRU.staticDirectory + '/2static/flash/ZeroClipboard-1.2.1.swf',
+                        hoverClass: "zeroclipboard-is-hover",   // The class used to hover over the object
+                        activeClass: "zeroclipboard-is-active"  // The class used to set object active
+                    });
+
+                    var checkoutUrlDialog = AJS.InlineDialog($('#checkout-url'), "checkoutUrlDialog",
+                        function(content, trigger, showPopup) {
+                            if (!isInitialised) {
+                                isInitialised = true;
+                                content.html(dialogContent);
+                                var $dialogContent = $('#checkout-url-content');
+
+                                var userAgent = navigator.userAgent;
+                                if (/Windows/i.test(userAgent)) {
+                                    $dialogContent.find('.mac-text').remove();
+                                    $dialogContent.find('.source-tree').show();
+                                } else if (/Macintosh/i.test(userAgent)) {
+                                    $dialogContent.find('.windows-text').remove();
+                                    $dialogContent.find('.source-tree').show();
+                                }
+
+                                showPopup();
+
+                                var initClipboard = function() {
+                                    if (!isInitClipboard) {
+                                        var id = 0;
+                                        $dialogContent.find('button.copy').each(function() {
+                                            var t = this, $t = $(t);
+                                            var client = new ZeroClipboard($t[0]);
+                                            client.on('noflash', function() {
+                                                $t.hide();
+                                            });
+                                            client.on('wrongflash', function() {
+                                                $t.hide();
+                                            });
+
+                                            t.hint = AJS.InlineDialog($t, 'clipboard-hint-' + (id++), function(content, trigger, showPopup) {
+                                                t.$content = content.html('Copy to clipboard');
+                                                t.$content.click(function() {t.hint.hide()});
+                                                showPopup();
+                                            }, {
+                                                closeOthers: false,
+                                                hideDelay: 500,
+                                                width: 130
+                                            });
+
+                                            var prevHint, hideHintTimer;
+                                            client.on('mousedown', function () {
+                                                client.setText($(this).parent().find('.text').val());
+                                            })
+                                                    .on('mouseup', function() {
+                                                        checkoutUrlDialog.show();
+                                                    })
+                                                    .on('mouseout',function () {
+                                                        prevHint && prevHint.hide();
+                                                    }).on('mouseover',function () {
+                                                        var thisButton = this;
+                                                        prevHint && prevHint.hide();
+                                                        thisButton.$content && thisButton.$content.html('Copy to clipboard');
+                                                        thisButton.hint.show();
+                                                        clearTimeout(hideHintTimer);
+                                                        prevHint = thisButton.hint;
+                                                    }).on('complete', function () {
+                                                        var thisButton = this;
+                                                        thisButton.hint.show();
+                                                        thisButton.$content && thisButton.$content.html('Successfully copied');
+                                                        clearTimeout(hideHintTimer);
+                                                        hideHintTimer = setTimeout(function () {
+                                                            thisButton.hint.hide();
+                                                        }, 1500);
+                                                    });
+                                        });
+                                        isInitClipboard = true;
+                                    }
+                                }
+
+                                $dialogContent.on('click', '.text', function() {
+                                    $(this).select();
+                                }).on('mouseenter', function() {
+                                    initClipboard();
+                                    $dialogContent.off('mouseenter');
+                                });
+                                setTimeout(initClipboard, 100);
+                            }
+                            return false;
+                    }, {
+                                // inline dialog's options
+                                width: 360,
+                                noBind: true,
+                                hideDelay: 1000000
+                            });
+
+                    $('#checkout-url').click(function() {
+                        if ($('#checkout-url-content').is(':visible')) {
+                            checkoutUrlDialog.hide();
+                        } else {
+                            checkoutUrlDialog.show();
+                        }
+                    });
+                });
+            })(AJS.$);
+        </script>
+    </a>
+
+
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+</div>
+
+
+                    </div>
+            </div><!-- .aui-page-header-actions -->
+                        </div><!-- .aui-page-header-inner --></header><!-- .aui-page-header -->
+                    
+                        <nav class="aui-navgroup aui-navgroup-horizontal">
+                            <div class="aui-navgroup-inner">
+                                <div class="aui-navgroup-primary">
+                                    <ul class="aui-nav">
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+
+
+
+<li class=""><a
+        class="" href="/browse/TestRun">Files</a></li>
+<li class="aui-nav-selected"><a
+        class="" href="/changelog/TestRun">Activity</a></li>
+
+    <li class=""><a
+            class="" href="/graph/TestRun">Commit Graph</a></li>
+
+<li class=""><a
+        class="" href="/users/TestRun">Users</a></li>
+<li class=""><a
+        class="" href="/reports/TestRun">Reports</a></li>
+
+    
+    
+        <li class=""><a
+                class="" href="/search/TestRun">Search</a></li>
+    
+
+
+                                    </ul>
+                                </div><!-- .aui-navgroup-primary -->
+                                <div class="aui-navgroup-secondary">
+                                    
+                                </div><!-- .aui-navgroup-secondary -->
+                            </div><!-- .aui-navgroup-inner -->
+                        </nav><!-- .aui-navgroup -->
+                    
+                    
+                        
+            
+                <div class="page-sub-header "><div class="page-sub-header-inner aui-group"><div class="header-image aui-item"><div class="user-avatar-wrap">
+                            <a class="user avatar " style='background-image:url(http://54.218.72.157:8060/avatar/suhas?s=48);padding-left:52px;' href="/user/suhas"  title=""></a>
+                        </div></div><div class="header-main aui-item"><div class="commit-info">
+                            <div class="committer">
+                                <strong class="user  "  href="/user/suhas"  title="Suhas"><span class="linkText">Suhas</span></strong>
+                            </div>
+                            committed
+                            <div class="changeset">
+                                <a class="changeset-link "
+   href="/changelog/TestRun?cs=9b87f580aa9f464aaadbca20063f225f6bd71350"title="9b87f580aa9f464aaadbca20063f225f6bd71350">9b87f58</a>
+
+                            </div>
+                            <div class="date">
+                                <span title="29 May 2018 8:35">on 29 May</span>
+                            </div>
+                        </div>
+                        <div class="commit-message">
+                            
+                            
+                            <div class="message-short">
+                                first commit <br>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="custom-details">
+                            
+
+    
+    
+
+
+                        </div>
+
+                        
+
+                        
+                        
+                            
+                            
+                        </div><div class="header-secondary aui-item"><div class="commit-extra">
+                            <div>
+                                <span class="aui-icon aui-icon-small aui-iconfont-devtools-commit"></span>
+
+                                
+<div id="changeset-parents" class="expandable-list-wrap  ">
+
+
+</div>
+
+                            </div>
+                            <div>
+                                <span class="aui-icon aui-icon-small aui-iconfont-devtools-branch-small"></span>
+
+                                
+<div id="changeset-branches" class="expandable-list-wrap  ">
+
+
+
+
+<a title="master in TestRun"
+    
+
+href="/changelog/~br=master/TestRun"
+>master
+</a>
+
+
+
+
+
++
+
+
+<a title="slave in TestRun"
+    
+
+href="/changelog/~br=slave/TestRun"
+>slave
+</a>
+
+
+
+
+</div>
+
+                            </div>
+                            
+                            
+                                <div>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-review"></span>
+                                    
+<div id="changeset-reviews" class="expandable-list-wrap  ">
+
+
+
+<span class=" "title="CR-2"><a class="drop-review reviewDraft" href="/cru/CR-2">CR-2<input type="hidden" class="permaId" value="CR-2"></a></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ <a
+                    class="expandable-list-more "
+>2 more</a>
+
+
+
+<ul class="expandable-list-dropdown-content">
+
+
+
+<li>
+<span class=" "title="CR-3"><a class="drop-review reviewOpen" href="/cru/CR-3">CR-3<input type="hidden" class="permaId" value="CR-3"></a></span>
+
+</li>
+
+
+
+<li>
+<span class=" "title="CR-5"><a class="drop-review reviewDraft" href="/cru/CR-5">CR-5<input type="hidden" class="permaId" value="CR-5"></a></span>
+
+</li>
+
+</ul>
+<script>
+;
+(function ($) {
+$(function() {
+var $expandableList = $('#changeset-reviews'),
+isFirstRun = true,
+$moreLink = $expandableList.find('.expandable-list-more'),
+$content = $expandableList.find('.expandable-list-dropdown-content'),
+dialogWidth = $content.outerWidth(true);
+var dialog = AJS.InlineDialog($moreLink, "more-" + "changeset-reviews", function ($container, trigger, showPopup) {
+if (isFirstRun) {
+$container.html($content);
+isFirstRun = false;
+}
+showPopup();
+}, {
+width: dialogWidth < 120 ? 120 : dialogWidth > 400 ? 400 : dialogWidth
+});
+})
+})(AJS.$);
+</script>
+
+</div>
+
+                                </div>
+                            
+                            
+                            <ul id="barracuda-indexing-message-wrap" style="display:none"></ul>
+                        </div></div></div></div>
+            
+            
+        
+
+        <div class="sub-header-messages">
+           
+
+
+
+            
+           
+          
+        </div>
+                    
+                    
+                    <div class="adg-new-message barracuda-page-message"></div>
+
+                    <table cellspacing="0" id="columns">
+                        <tbody>
+                            <tr>
+                                <td id="column-tearout">
+                                    
+                                        
+                                        
+                                            
+                                        
+                                    
+                                    
+                                    
+                                        
+                                    
+                                    <div class="tearout-tabs tearout-icons">
+                                        <ul>
+                                            
+                                            
+                                            
+                                                <li class="tearout-changeset tearout-active">
+                                                    <a>Options</a>
+                                                    <input type="hidden" value="o"/>
+                                                </li>
+                                            
+                                            
+                                            
+                                                <li id="comments-tab" class="tearout-comments">
+                                                    <a>Comments</a>
+                                                    <input type="hidden" value="c"/>
+                                                </li>
+                                            
+                                        </ul>
+                                    </div><!-- /.tearout-tabs -->
+                                </td>
+                                <td id="column-sidebar">
+                                    <div id="content-sidebar" style="width: 380px;">
+                                        
+
+                                        <div id="content-resizable">
+                                            <div id="content-navigation" class="navigation-resizable">
+                                                <div id="content-navigation-panel" class="panel panel-directory">
+                                                    
+                                                    
+                                                    
+                                                        <div id="panel-changeset" class="panel-tearout">
+                                                            
+            
+
+
+<!-- Tree build time: 0 Node count: 3 -->
+<div id="navigation-tree" class=""><ul class="tree" id="tree-root">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="tree-li file-li" id="treeli1685611991">
+
+<span  class="file filetype-md">
+
+
+
+
+
+<span class="fecru-icon fecru-icon-small fecru-icon-txt-file node-icon node-file-icon" >File</span>
+
+
+
+
+
+
+
+
+
+
+<a href="/changelog/TestRun/README.md" class="fileLink ">README.md<input type="hidden" name="anchor" value="README.md"/><input type="hidden" name="page" value="1"/><input type="hidden" name="index" value="1"/></a></span>
+
+
+
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="tree-li file-li" id="treeli701549383">
+
+<span  class="file filetype-html">
+
+
+
+
+
+<span class="fecru-icon fecru-icon-small fecru-icon-code-file node-icon node-file-icon" >File</span>
+
+
+
+
+
+
+
+
+
+
+<a href="/changelog/TestRun/index.html" class="fileLink ">index.html<input type="hidden" name="anchor" value="index.html"/><input type="hidden" name="page" value="2"/><input type="hidden" name="index" value="1"/></a></span>
+
+
+
+
+
+
+<script type="text/javascript">
+AJS.$(document).ready(function () {
+var data = {treeli1685611991:{path:"README.md",repname:"TestRun",baseurl:"/changelog/TestRun"},treeli701549383:{path:"index.html",repname:"TestRun",baseurl:"/changelog/TestRun"}};
+var $tree = AJS.$("#tree-root");
+var currentData = $tree.data("extraAttrs");
+if (!currentData) {
+currentData = data;
+} else {
+for (var key in data) {
+currentData[key] = data[key];
+}
+}
+$tree.data("extraAttrs", currentData);
+});
+</script>
+</ul></div>
+<script type="text/javascript">
+    AJS.$(document).ready(function () {
+        //FE.CHANGESET.changesetPathLinkFn FE.CHANGESET.changesetFileLinkFn
+
+        
+
+
+        var pathLinkFn = FE.CHANGESET.changesetPathLinkFn,
+                fileLinkFn = FE.CHANGESET.changesetFileLinkFn,
+                actionName = "loadChangesetSubTree",
+                ajaxArgsFn = FE.CHANGESET.changesetSubTreeArgs;
+
+        var callback = function() {
+            FECRU.BROWSE.initDirectoryTree(
+                    pathLinkFn,
+                    fileLinkFn,
+                    actionName,
+                    ajaxArgsFn
+            );
+        };
+
+        
+            
+            
+                callback();
+            
+        
+
+
+    });
+</script>
+
+        
+                                                        </div>
+                                                    
+                                                    
+                                                    
+                                                        <div id="panel-comments" class="panel-tearout hidden">
+                                                            <div id="cscomment-root-pane"></div>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div><!-- /content-resizable -->
+                                    </div><!-- /content-sidebar -->
+
+
+                                </td>
+                                <td id="column-resize"><img src="/static/p5xsod/2static/images/handle_v.gif" alt="" /></td>
+                                <td id="column-content">
+
+                                    <div id="content-column">
+                                        <div id="content-column-panel" class="panel panel-content">
+                                            <div class="content-view">
+                                                
+                                                    <ul class="info">
+                                                        
+
+
+
+
+
+
+
+
+
+
+
+                                                    </ul>
+                                                
+                                                
+                                            </div>
+
+                                            <div id="content-wrapper">
+                                                
+                                                    <div id="toolbar" class="toolbar ">
+                                                        
+            <input type="hidden" id="noOfPages" value="2"/>
+            <ul class="toolbar-frame toolbar-frame-right">
+                <li class="blame-trigger-wrapper blame-trigger-wrapper__changeset"><div class="blame-trigger-spinner"></div>
+<button class="aui-button blame-trigger " aria-disabled="true" disabled="disabled" >Blame</button>
+</li>
+
+                
+                    <li><span class="keynav-hint"><span>j</span> : next, <span>k</span> : previous
+                <li class="tearout-comments">
+                    <a id="view-comments-link">Discuss <span id="comment-count-2"></span></a>
+                </li>
+                
+            </ul>
+            <ul class="toolbar-frame">
+                <li class="taskbar-patch">
+                    <a href="/rdiff/TestRun?csid=9b87f580aa9f464aaadbca20063f225f6bd71350&u&N">View as Patch</a>
+                </li>
+                <li class="taskbar-changeset">
+                    <a href="/changelog/TestRun?showid=9b87f580aa9f464aaadbca20063f225f6bd71350&view=fe">View in Activity Stream</a>
+                </li>
+                
+                <li>
+                    
+<a title="View this changeset in the commit graph" href="/graph/TestRun?csid=9b87f580aa9f464aaadbca20063f225f6bd71350">View in graph</a>
+
+
+                </li>
+                
+                
+                    <li class="taskbar-review">
+                        
+                            
+                            <a href="/cru/create?csid=%2F%2FTestRun%2F9b87f580aa9f464aaadbca20063f225f6bd71350"
+                               title="Create a Review from this Changeset"
+                               onclick='return CRU.UTIL.addToReview({
+                                csid: "9b87f580aa9f464aaadbca20063f225f6bd71350",
+                                repo: "TestRun"
+                            });'>Create Review</a>
+                        
+                        
+                    </li>
+                
+                
+                
+            </ul>
+        
+                                                    </div>
+                                                
+
+                                                
+
+                                                <div id="panel-target" class="aui-theadholder ">
+                                                    <span class="source spinner">
+            <img src="/static/p5xsod/2static/images/blank.gif">
+        </span>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div id="content-shield">&nbsp;</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+                <script type="text/javascript">
+            FECRU.isChangesetPage = true;
+            require([
+                'jquery',
+                'FECRU/component/blame',
+                'global-ns/fecru-event-bus'
+            ], function($, blame, eventBus) {
+
+                
+
+                var triggerSourceCodeShown = function (pageNumber) {
+                    eventBus.trigger('source-code:shown', {
+                        key: pageNumber,
+                        page: 'changeset'
+                    });
+                };
+
+                var setChangesetContentWidth = function() {
+                    var otherColumnsWidth = $('#column-tearout').outerWidth(true) +
+                            $('#column-sidebar').outerWidth(true) +
+                            $('#column-resize').outerWidth(true);
+                    var windowWidth = $(window).width();
+                    var targetWidth = parseInt(windowWidth, 10) - parseInt(otherColumnsWidth, 10) - 1;
+                    $('#panel-target').width(targetWidth);
+                };
+
+                AJS.bind('fe-page-resize', setChangesetContentWidth)
+                        .bind('sidebar-resize', setChangesetContentWidth)
+                        .bind('sidebar-collapsed', setChangesetContentWidth)
+                        .bind('sidebar-expanded', setChangesetContentWidth);
+
+                $(document).ready(function () {
+                    FE.CHANGESET.init();
+
+                    var changesetNav = new ChangesetNav();
+
+                    FE.CHANGESET.bindFileSelected(function(isSameFile, pageNumber) {
+                        if (!isSameFile) {
+                            // we need to re-init the diff objects for the newly loaded page.
+                            // Meanwhile, the source container needs to be re-assigned.
+                            changesetNav.init();
+                        }
+
+                        triggerSourceCodeShown(pageNumber);
+                    });
+
+                    var selectNewFileForNavigation = function($next, beforeNum, afterNum, callback) {
+                        FE.CHANGESET.selectNextFile($next, beforeNum, afterNum, function(isSameFile, pageNumber) {
+                            if (!isSameFile) {
+                                $('#panel-target').trigger('scroll', true);
+                            }
+                            
+                            triggerSourceCodeShown(pageNumber);
+                            callback && callback(isSameFile)
+                        });
+                        $("#content-navigation-panel").scrollTo($next, {
+                            offset: -50
+                        });
+                    };
+
+                    changesetNav.bindEdgeOfAll(function(dir, edgeFileSelectedCallback) {
+                        setTimeout(function() {
+                            if (dir == 'first') {
+                                selectNewFileForNavigation(
+                                        FE.CHANGESET.getFirstFile('#tree-root .file-li'),
+                                        0, 2, edgeFileSelectedCallback
+                                );
+                            } else {
+                                selectNewFileForNavigation(
+                                        FE.CHANGESET.getLastFile('#tree-root .file-li'),
+                                        2, 0, edgeFileSelectedCallback
+                                );
+                            }
+                        }, 0);
+                    });
+
+                    changesetNav.bindEdgeOfFile(function(dir, newFileSelectedCallback) {
+                        setTimeout(function(){
+                            if (dir == 'end' || dir == 'start') {
+                                var $next, beforeNum, afterNum;
+                                if (dir == 'end') {
+                                    selectNewFileForNavigation(
+                                            FE.CHANGESET.getNextFile('#tree-root .file-li', $('#tree-root .file-li.focused')),
+                                            0, 2, newFileSelectedCallback
+                                    );
+                                } else if(dir == 'start') {
+                                    selectNewFileForNavigation(
+                                            FE.CHANGESET.getPrevFile('#tree-root .file-li', $('#tree-root .file-li.focused')),
+                                            2, 0, newFileSelectedCallback
+                                    );
+                                }
+                            }
+                        }, 0);
+                    });
+
+                    AJS.whenIType("j").execute(function() {
+                        changesetNav.scrollTo('next');
+                    });
+                    AJS.whenIType("k").execute(function() {
+                        changesetNav.scrollTo('prev');
+                    });
+                    AJS.whenIType("shift+j").execute(function() {
+                        changesetNav.scrollToEdgeOfAll('last');
+                    });
+                    AJS.whenIType("shift+k").execute(function() {
+                        changesetNav.scrollToEdgeOfAll('first');
+                    });
+
+                    blame.init();
+                });
+
+            });
+        </script>
+            
+            
+<div id="footer">
+    <div class="fineprint">
+        Atlassian
+        
+            <a class="smalltext" href="http://www.atlassian.com/software/fisheye/">FishEye
+                
+                    Git analysis
+                
+                
+            </a>
+        
+        
+            with
+        
+        
+            <a class="smalltext" href="http://www.atlassian.com/software/crucible/">Crucible code review</a>.
+        
+
+        
+
+        
+            (Version:4.4.6
+    
+            Build:20180321104813 2018-03-21)
+            
+        
+
+        
+             - 
+            <a class="smalltext" href="/admin/">Administration</a>
+            
+        
+
+        
+            
+             - 
+            Page generated 2018-05-30 06:03 +0000
+        
+
+    </div>
+
+    <div id="footer-bar">
+
+        
+
+
+
+
+
+<div class="aui-message aui-message-generic generic system-messages--banner aui-message-warning" data-dismiss-property="">This FishEye and Crucible instance is using HSQLDB, which is only supported in evaluation environments
+
+<a href="http://docs.atlassian.com/fisheye/docs-044/Supported+Platforms">Details</a>.</div>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+        
+            
+        
+
+        
+            
+        
+
+        
+            
+
+<div class="aui-message aui-message-generic generic system-messages--banner aui-message-warning" data-dismiss-property="">
+                        FishEye (Server): Evaluation License registered to VVDN.<br/>
+                    
+                    <strong>You have 29 days before your maintenance expires.</strong>
+                
+ You can renew your license at
+<a href="http://www.atlassian.com/purchase/renew">http://www.atlassian.com/purchase/renew</a></div>
+
+
+        
+
+        
+
+    </div>
+
+</div>
+
+
+<div id="errorBox-container" style="display: none;">
+    <div id="errorBox">
+        <div id="errorDetails">
+            <div id="errorResponses"></div>
+
+            <div class="errorProductDetails">
+                You are running release
+                
+                CR4.4.6
+                
+                FE4.4.6
+                (20180321104813 2018-03-21),
+                please report your release number when reporting bugs.
+            </div>
+
+            <div class="errorAtlassianHelp">
+                <p>Got a suggestion or an issue?<br>
+                    Discuss it on <a href="http://answers.atlassian.com">Atlassian Answers</a> or
+                    visit <a href="http://support.atlassian.com">Atlassian Support</a> for other options.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--
+Page produced in 88 ms on qtp823914581-3047
+-->
+
+        </div>
+        <script type="text/javascript">
+            AJS.$(document).ready(function () {
+                FE.toggleTabs();
+                FE.setupPanes();
+            });
+        </script>
+
+        
+
+
+  
+    </body>
+</html>
+
 
